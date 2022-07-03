@@ -2,7 +2,6 @@ const { describe, it, before, } = require('mocha')
 const { expect } = require('chai')
 const Todo = require('../src/todo')
 
-
 describe('todo', () => {
     describe('#idValid', () => {
         it('should return invalid when creating an object without text', () => {
